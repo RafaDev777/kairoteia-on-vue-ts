@@ -11,7 +11,8 @@
     "watch": "tailwindcss -i ./src/idex.css -o ./dist/output.css --watch"
   },
   "dependencies": {
-    "vue": "^3.2.47"
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6"
   },
   "devDependencies": {
     "@types/node": "^18.16.0",
