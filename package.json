@@ -6,9 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview",
-    "css-build": "tailwindcss -i ./src/index.css -o ./dist/output.css",
-    "watch": "tailwindcss -i ./src/idex.css -o ./dist/output.css --watch"
+    "preview": "vite preview"
   },
   "dependencies": {
     "vue": "^3.2.47",
@@ -19,6 +17,8 @@
     "@vitejs/plugin-vue": "^4.1.0",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.23",
+    "prettier": "^2.8.8",
+    "prettier-plugin-tailwindcss": "^0.2.7",
     "tailwindcss": "^3.3.1",
     "typescript": "^5.0.2",
     "vite": "^4.3.0",
