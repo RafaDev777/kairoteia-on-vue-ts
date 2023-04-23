@@ -1,0 +1,2 @@
+# Kairoteia On Vite and Vue with Typescript
+This project was a trial to create a website Kairoteia a digital invitaion maker app. This project will be made with Vite and Vue using Typescript and Tailwind.

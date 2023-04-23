@@ -1,0 +1,26 @@
+{
+  "name": "kairoteia-on-vue-ts",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "css-build": "tailwindcss -i ./src/index.css -o ./dist/output.css",
+    "watch": "tailwindcss -i ./src/idex.css -o ./dist/output.css --watch"
+  },
+  "dependencies": {
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.0",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.0",
+    "vue-tsc": "^1.2.0"
+  }
+}
